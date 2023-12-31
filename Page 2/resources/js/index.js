@@ -106,7 +106,6 @@ function handleSubmit() {
 
     populism += populismChange;
 
-    // Clear selected radio button
     selectedOption.checked = false;
 
     if (populism < 0) {
